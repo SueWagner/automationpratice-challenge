@@ -24,4 +24,5 @@ Script de execução dos testes (steps):
 10.	Os testes então serão executados e após isto o JUnit informa, por meio de uma barra de cor verde ou vermelha, quais testes passaram e quais não: 
 
 I.	O teste “RegisterTestCase” (teste referente ao cadastro) não irá passar, pois ao inserir um endereço de e-mail já cadastrado, ele apresentará a seguinte mensagem: “An account using this email address has already been registered. Please enter a valid password or request a new one.”. Pode-se inserir outro e-mail disponível para executar este teste (fazendo-se necessário alterar o e-mail no código) e então irá passar.
+
 II.	O teste “PurchaseTestCase” (teste referente à compra), será executado corretamente, fazendo as verificações de validação nas páginas. Este teste aparecerá com cor verde, informando que o teste passou.
